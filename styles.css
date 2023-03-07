@@ -140,3 +140,40 @@
         width: 90%;
     }
 }
+.container{
+    margin: 48px auto;
+    width: 90%;
+    
+}
+.we__offer{
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.we__offer .card{
+   border-radius: 10px;
+   overflow: hidden;
+   border: solid 1px #e0e0e0;
+   translate: 1s ease out all;
+}    
+.we__offer .card img{
+    height: 180px;
+    width: 100%;
+    width: 320px;
+    object-fit: cover;
+    object-position: center;
+}
+.we__offer  .card h2{
+    padding: 10px 10px 0px 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.we__offer .card p{
+    font-size: 13px;
+    padding: 0px 10px 10px 10px;
+}
+.we__offer .card:hover{
+    transform: scale(1.05)
+}
